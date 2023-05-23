@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contenedor-flex">
+        <section class="contenedor1">
+            <img class="logo" src="images/logo.png">
+            <section class="cajadetexto">
+                <textarea id="entrada" placeholder="Ingrese el texto aquí" required></textarea>
+            </section>
+            <section class="recomendacion">
+                <p> <img src="images/bi_exclamation-circle-fill.png"> Solo letras minúsculas y sin acentos</p>
+            </section>
+            <section class="botones">
+                <button type="button" id="botonencriptar">Encriptar</button>
+                <button type="button" id="botondesencriptar">Desencriptar</button>
+            </section>
+        </section>
+        <section class="contenedor2">
+            <section class="cajaresultado">
+                <textarea id="msj"></textarea>
+                <img id="imagen" src="images/Muneco.png">
+                <img id="imagen2" src="images/imagen_sin_texto.jpg">
+            </section>
+            <button type="button" id="copiar">Copiar</button>
+        </section>
+    </section>
+</body>
+<footer>
+    <p>&copy Copyright JCN</p>
+</footer>
+</html>
+<script src="script.js"></script>
